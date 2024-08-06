@@ -86,8 +86,8 @@ async def on_message(message):
     # Check if the message is sent by the bot itself
     if message.author.id == client.user.id:
         try:
-            await message.add_reaction('💚')
-            await message.add_reaction('🍍')
+            await message.add_reaction('💀')
+            await message.add_reaction('☠️')
         except Exception as e:
             print(f'Error adding reactions: {e}')
     
