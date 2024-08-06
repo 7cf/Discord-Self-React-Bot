@@ -36,7 +36,7 @@ Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your m
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/your-username/mars-self-bot.git
+    git clone https://github.com/your-username/Discord-Self-React-Bot.git
     cd mars-self-bot
     ```
 
