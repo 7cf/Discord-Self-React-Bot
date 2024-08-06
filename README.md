@@ -9,10 +9,6 @@ Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your m
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Customization](#customization)
-- [Commands](#commands)
-- [Contributing](#contributing)
-- [License](#license)
-- [Disclaimer](#disclaimer)
 
 ## 🌟 **Features** 🌟
 
