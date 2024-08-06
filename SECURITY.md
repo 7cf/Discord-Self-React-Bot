@@ -2,20 +2,26 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This section outlines which versions of `Mar's Self Bot 1.0` are currently supported with security updates:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version  | Supported          |
+| -------- | ------------------ |
+| Latest   | :white_check_mark: |
+| Older    | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a vulnerability in `Mar's Self Bot 1.0`, please follow these steps to report it:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+1. **Submit a Report**: Report vulnerabilities through our [GitHub Issues](https://github.com/7cf/Discord-Self-React-Bot/issues) or contact us directly.
+
+2. **Information Required**: Provide detailed information about the vulnerability, including steps to reproduce, potential impact, and any supporting evidence.
+
+3. **Response Time**: We aim to acknowledge reports within 48 hours. Expect an update on the status of your report within 1-2 weeks.
+
+4. **Acceptance**: If the vulnerability is accepted, we will work on a fix and provide an update in the next release.
+
+5. **Disclosure**: We will publicly disclose the vulnerability only after a fix is available and has been deployed.
+
+Thank you for helping us keep our project secure!
+
