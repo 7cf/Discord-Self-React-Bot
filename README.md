@@ -1,8 +1,9 @@
-#  **Mar's Self Bot 1.0** 
+# Mar's Self Bot 1.0
 
 Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your messages. This bot is designed for educational purposes only. It adds default reactions to all messages sent by the user.
 
 ## Table of Contents
+
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -18,7 +19,7 @@ Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your m
 - **Automatic Reactions**: Automatically adds reactions to your messages.
 - **Self-Bot**: Operates using your own Discord account.
 - **Easy to Use**: Simple setup and configuration.
-- **Exe Easier Process**: Faster Way!, Enter Your Token And Boom!
+
 ## 🔧 **Installation** 🔧
 
 ### Prerequisites
@@ -29,20 +30,17 @@ Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your m
 ### Step-by-Step Guide
 
 1. **Clone the Repository**
-
     ```sh
     git clone https://github.com/your-username/mars-self-bot.git
     cd mars-self-bot
     ```
 
 2. **Install Dependencies**
-
     ```sh
     pip install discord.py-self
     ```
 
 3. **Edit the Script**
-
     - Open `selfbot.py` in your preferred text editor.
     - Replace the placeholder token with your actual Discord user token.
 
@@ -50,7 +48,7 @@ Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your m
     TOKEN = 'your_discord_token_here'
     ```
 
-## 📄 **Usage** 📄
+## 🚀 **Usage** 🚀
 
 1. **Run the Bot**
 
@@ -59,14 +57,13 @@ Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your m
     ```
 
 2. **Check for Successful Login**
-
     - You should see a message in your terminal indicating that you have logged in successfully.
 
     ```sh
     Logged in as your_username
     ```
 
-## 📜 **Configuration** 📜
+## ⚙️ **Configuration** ⚙️
 
 ### Script Overview
 
