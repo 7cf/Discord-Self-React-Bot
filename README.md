@@ -98,25 +98,4 @@ async def on_message(message):
     await client.process_commands(message)  # Process other commands
 
 client.run(TOKEN)
-🎉 selfreact.exe 🎉
-For those who prefer a more user-friendly approach, we have provided a compiled executable version named selfreact.exe. This version offers a simple graphical interface where you can enter your token and start or stop the self-bot with the click of a button.
 
-💻 Commands 💻
-!addreaction
-Manually add a reaction to your messages.
-
-!removereaction
-Remove a reaction from your messages.
-
-🤝 Contributing 🤝
-We welcome contributions! If you would like to contribute, please fork the repository and submit a pull request.
-
-For any questions, feel free to reach out to me on Discord: #unvilged.
-
-📄 License 📄
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-⚠️ Disclaimer ⚠️
-Please be cautious! This project is intended for educational purposes only. Using self-bots is against Discord's Terms of Service and can lead to your account being banned. We do not take any responsibility for any actions taken against your account as a result of using this self-bot.
-
-Happy coding! 🌟
