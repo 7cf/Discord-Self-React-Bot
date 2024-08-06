@@ -24,7 +24,7 @@ Mar's Self Bot 1.0 is a self-bot for Discord designed to automatically react to 
 
 ### Exe Method
 
-- **Download and Run**: Download `selfreact.exe`, run the application, enter your token, and press "Run" to start the bot. (Feel free to decode it if you wish to explore the code.)
+- **Download and Run**: Download [**selfreact.exe**](https://github.com/7cf/Discord-Self-React-Bot/releases/download/v1.0/selfreact.exe), run the application, enter your token, and press "Run" to start the bot. (Feel free to decode it if you wish to explore the code.)
 
 ### Prerequisites
 
@@ -35,7 +35,7 @@ Mar's Self Bot 1.0 is a self-bot for Discord designed to automatically react to 
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/your-username/Discord-Self-React-Bot.git
+    git clone https://github.com/7cf/Discord-Self-React-Bot.git
     cd Discord-Self-React-Bot
     ```
 
