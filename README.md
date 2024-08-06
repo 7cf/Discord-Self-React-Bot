@@ -1,4 +1,4 @@
-# 🌈 **Mar's Self Bot 1.0** 🌈
+#  **Mar's Self Bot 1.0** 
 
 Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your messages. This bot is designed for educational purposes only. It adds default reactions to all messages sent by the user.
 
