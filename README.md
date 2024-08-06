@@ -22,6 +22,10 @@ Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your m
 
 ## 🔧 **Installation** 🔧
 
+###  Exe Method
+- Download "selfreact.exe" and run the application, and enter your token and press "run" :D!
+    (decode it if you want lol.)
+
 ### Prerequisites
 
 - Python 3.8 or higher
