@@ -1,79 +1,48 @@
-# Mar's Self Bot 1.0
+# 🌈 **Self Bot 1.0** 🌈
 
-Mar's Self Bot 1.0 is a self-bot for Discord that automatically reacts to your messages. This bot is designed for educational purposes only. It adds default reactions to all messages sent by the user.
+Welcome to the **Self Bot 1.0** repository! This project is designed for educational purposes and demonstrates how to create a self-bot using Python and Discord's API. **Please note that using self-bots is against Discord's Terms of Service. Proceed with caution.**
 
-## Table of Contents
+## 🌟 **Features** 🌟
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Commands](#commands)
-- [Contributing](#contributing)
-- [License](#license)
-- [Disclaimer](#disclaimer)
+- Automatically reacts to your messages with 💚 and 🍍
+- Simple to set up and run
 
-## Features
+## 🔧 **Requirements** 🔧
 
-- **Automatic Reactions**: Automatically adds reactions to your messages.
-- **Self-Bot**: Operates using your own Discord account.
-- **Easy to Use**: Simple setup and configuration.
-
-## Installation
-
-### Prerequisites
-
-- Python 3.8 or higher
+- Python 3.x
 - `discord.py-self` library
 
-### Step-by-Step Guide
+## 📝 **Installation** 📝
 
 1. **Clone the Repository**
+
     ```sh
-    git clone https://github.com/your-username/mars-self-bot.git
-    cd mars-self-bot
+    git clone https://github.com/yourusername/self-bot.git
+    cd self-bot
     ```
 
-2. **Install Dependencies**
+2. **Install the Required Libraries**
+
     ```sh
     pip install discord.py-self
     ```
 
-3. **Edit the Script**
-    - Open `selfbot.py` in your preferred text editor.
-    - Replace the placeholder token with your actual Discord user token.
-
-    ```python
-    TOKEN = 'your_discord_token_here'
-    ```
-
-## Usage
-
-1. **Run the Bot**
+3. **Run the Bot**
 
     ```sh
     python selfbot.py
     ```
 
-2. **Check for Successful Login**
-    - You should see a message in your terminal indicating that you have logged in successfully.
+## 📄 **Usage** 📄
 
-    ```sh
-    Logged in as your_username
-    ```
-
-## Configuration
-
-### Script Overview
-
-The main script (`selfbot.py`) looks like this:
+Replace the placeholder token in `selfbot.py` with your actual Discord token:
 
 ```python
 import discord
 from discord.ext import commands
 
 # Replace with your actual user token
-TOKEN = 'your_discord_token_here'
+TOKEN = 'YOUR_DISCORD_TOKEN'
 
 client = commands.Bot(command_prefix='!', self_bot=True)
 
@@ -86,8 +55,8 @@ async def on_message(message):
     # Check if the message is sent by the bot itself
     if message.author.id == client.user.id:
         try:
-            await message.add_reaction('💀')
-            await message.add_reaction('☠️')
+            await message.add_reaction('💚')
+            await message.add_reaction('🍍')
         except Exception as e:
             print(f'Error adding reactions: {e}')
     
